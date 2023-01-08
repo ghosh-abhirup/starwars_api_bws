@@ -22,9 +22,11 @@ const Item = () => {
   return (
     <div>
       {loaded && char != null && <Character data={char} />}
-      <button className="btn" onClick={onCLickHandler}>
-        Randomized Character
-      </button>
+      <div className="btnClass">
+        <button className="btn" onClick={onCLickHandler}>
+          Randomized Character
+        </button>
+      </div>
     </div>
   );
 };

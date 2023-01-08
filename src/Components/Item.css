@@ -5,4 +5,11 @@
     font-size: large;
     padding: 20px 30px;
     border: 1px solid black;
+    
+}
+
+.btnClass{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
