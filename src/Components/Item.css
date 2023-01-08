@@ -1,0 +1,8 @@
+.btn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 20px 30px;
+    border: 1px solid black;
+}
